@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C)2011 Ezio Querini <iiizio AT users.sf.net>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+<resources>
+
+    <!-- ePUBator -->
+    <string name="app_name" translatable="false">ePUBator</string>
+    <string name="convert_pdf">Конвертировать PDF</string>
+    <string name="verify_epub">Проверить ePUB</string>
+    <string name="conversion_in_progress">Идёт конвертация</string>
+    <string name="quickstart_text">Нажмите «Конвертировать PDF», выберите файл, и через некоторое время ePUB появится в той же папке или в папке «Загрузки». Нажмите «Проверить ePUB», чтобы проверить результат конвертации. Перед конвертацией вы можете установить изображение обложки двумя способами: 1) Поместите файл изображения (PNG или JPG) в ту же папку с таким же именем, как у PDF-файла. 2) Включите «Обложка из галереи» в настройках и выберите изображение сразу после выбора PDF-файла. В противном случае ePUBator использует имя PDF-файла для создания заголовка на титульной странице, поэтому, если оно вам не нравится, переименуйте PDF-файл перед конвертацией.</string>
+    
+    <!-- Menu -->
+    <string name="prefs">Настройки</string>
+    <string name="quickstart">Быстрый старт</string>
+    <string name="info">Информация</string>
+    <string name="license">Лицензия</string>
+    <string name="my_apps">Мои приложения</string>
+    
+    <!-- Verify -->
+    <string name="prev_page">Предыдущая страница</string>
+    <string name="next_page">Следующая страница</string>
+    <string name="index">Оглавление</string>
+    
+    <!-- Prefs -->
+    <string name="images_title">Включать изображения</string>
+    <string name="images_summary">Извлекать изображения из PDF</string>
+    <string name="repeated_title">Повторяющиеся изображения</string>
+    <string name="repeated_summary">Добавлять каждое повторение изображения</string>
+    <string name="page_title">Страниц в файле</string>
+    <string name="page_summary">Количество страниц PDF в одном файле</string>
+    <string name="error_title">ePUB с ошибками</string>
+    <string name="error_summary">При ошибке конвертации</string>
+    <string name="keep_item">Сохранить</string>
+    <string name="ask_item">Спросить</string>
+    <string name="discard_item">Отбросить</string>
+    <string name="mark_title">Добавить маркер</string>
+    <string name="mark_summary">Отмечать ошибки и пропущенные страницы</string>
+    <string name="pdftoc_title">Оглавление из PDF</string>
+    <string name="pdftoc_summary">Пытаться извлечь оглавление из PDF</string>
+    <string name="pickapic_title">Обложка из галереи</string>
+    <string name="pickapic_summary">Выбрать изображение или взять изображение с тем же именем, что и PDF-файл</string>
+    <string name="logo_title">Логотип на обложке</string>
+    <string name="logo_summary">Добавить логотип ePUBator на обложку</string>
+    <string name="downloaddir_title">ePUB в папке «Загрузки»</string>
+    <string name="downloaddir_summary">Всегда сохранять ePUB в папку «Загрузки»</string>
+
+    <!-- Convert -->
+    <string name="cannot_read_file">«Не удается прочитать файл ePUB»</string>
+    <string name="epub_was_deleted">Файл ePUB удалён</string>
+    <string name="kept_old_epub">Старый файл ePUB сохранён</string>
+    <string name="number_of_pages">Количество страниц: %d\n</string>
+    <string name="extraction_failure">Страница %d: ошибка извлечения</string>
+    <string name="extraction_error">Ошибка извлечения: текст может быть неполным</string>
+    <string name="keep_epub_file">Сохранить файл ePUB?</string>
+    <string name="ok">ОК</string>
+    <string name="cancel">Отмена</string>
+    <string name="stop">Стоп</string>
+    <string name="lost_pages_are_marked_with">Пропущенные страницы отмечены %s</string>
+    <string name="errors_are_marked_with">Ошибки отмечены %s</string>
+    <string name="pagenumber">Номер страницы%s</string>
+    <string name="epubfile">\nФайл ePUB: %s</string>
+    <string name="create_epub">Создать файл ePUB</string>
+    <string name="mimetype">Добавить mimetype</string>
+    <string name="container">Добавить container.xml</string>
+    <string name="content">Добавить content.opf</string>
+    <string name="toc">Добавить toc.ncx</string>
+    <string name="toc_extracted_from_pdf">Оглавление извлечено из PDF</string>
+    <string name="no_toc_found">В PDF-файле нет оглавления</string>
+    <string name="create_dummy_toc">Создать фиктивное оглавление</string>
+    <string name="frontpage">Добавить frontpage.html</string>
+    <string name="frontpagepng">Добавить frontpage.png</string>
+    <string name="create_cover_with_image">Создать обложку с изображением</string>
+    <string name="create_cover_with_title">Создать обложку с заголовком</string>
+    <string name="page_added">Добавлена страница %d.html</string>
+    <string name="image_added">Добавлено %s</string>
+    <string name="close_file">Закрыть файл</string>
+    <string-array name="conversion_result_message">
+        <item>Не начато</item>
+        <item>Загрузка файла</item>
+        <item>В процессе</item>
+        <item>Конвертация завершена</item>
+        <item>PDF-файл не найден</item>
+        <item>Не удалось прочитать PDF-файл</item>
+        <item>Не удалось записать файл ePUB</item>
+        <item>Не удалось извлечь текст</item>
+        <item>Извлечение остановлено пользователем</item>
+        <item>Ошибка нехватки памяти</item>
+    </string-array>
+    <string name="cannot_choose_file">Невозможно выбрать файл</string>
+    <string name="file_not_found">Файл не найден</string>
+    <string name="source_filename">Исходное имя файла</string>
+    <string name="epub_filename">Имя файла ePUB</string>
+    <string name="status">Статус</string>
+    <string name="image_must_be_picked_from_gallery">Изображение должно быть выбрано из галереи. Если вы не хотите этого делать, вы можете отключить эту опцию в настройках</string>
+    <string name="select_a_file">Выберите файл</string>
+
+    <string name="extraction">Извлечение</string>
+    <string name="images">Изображения</string>
+    <string name="cover">Обложка</string>
+</resources>
